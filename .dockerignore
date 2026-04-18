@@ -1,0 +1,21 @@
+# Dependency directories (very heavy, rebuilt inside container)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Version control (security risk and unnecessary weight)
+.git
+.gitignore
+
+# Docker configuration (not needed inside the running app)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Build and deployment scripts (CLI requirements only)
+build.sh
+deploy.sh
+
+# Environment and logs
+.env
+*.log
