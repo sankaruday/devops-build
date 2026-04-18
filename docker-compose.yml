@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  react-app:
+    build: .
+    image: react-production-app:latest
+    container_name: trend-store-container
+    ports:
+      - "80:80"
+    restart: always
